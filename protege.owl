@@ -1,0 +1,217 @@
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3>
+
+
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:integer
+
+    
+ObjectProperty: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#доят>
+
+    Domain: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Доярка>
+    
+    Range: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Корова>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#кормят>
+
+    Domain: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Дворник>
+    
+    Range: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Собака>
+    
+    
+ObjectProperty: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#обучают>
+
+    Domain: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Учитель>
+    
+    Range: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Ребенок>
+    
+    
+DataProperty: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#возраст>
+
+    Domain: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Человек>
+    
+    
+DataProperty: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#высота_в_холке>
+
+    Domain: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Корова>,
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Собака>
+    
+    
+DataProperty: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#страна>
+
+    Domain: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Человек>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Animal>
+
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Дворник>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Мужчина>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Директор>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Женщина>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Доярка>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Женщина>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Женщина>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Человек>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Корова>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Animal>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Мужчина>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Человек>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Ребенок>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Женщина>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Собака>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Animal>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Учитель>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Мужчина>
+    
+    
+Class: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Человек>
+
+    SubClassOf: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Animal>
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Алексадр_Петрович>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Учитель>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#обучают>  <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Алиша>,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#возраст>  45,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#страна>  "Россия"
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Алиша>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Ребенок>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#возраст>  10,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#страна>  "Россия"
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Антон>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Дворник>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#кормят>  <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Шарик>,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#возраст>  20,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#страна>  "Россия"
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Бобик>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Собака>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#высота_в_холке>  40
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Василий>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Дворник>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#кормят>  <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Бобик>,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#возраст>  40,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#страна>  "Россия"
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Зина>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Доярка>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#возраст>  34,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#страна>  "США"
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Зоя>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Доярка>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#возраст>  40,
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#страна>  "Россия"
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Полька>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Корова>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#высота_в_холке>  200
+    
+    
+Individual: <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Шарик>
+
+    Types: 
+        <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#Собака>
+    
+    Facts:  
+     <http://www.semanticweb.org/baozorp/ontologies/2023/0/untitled-ontology-3#высота_в_холке>  130
+    
+    
